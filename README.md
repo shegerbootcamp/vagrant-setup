@@ -13,15 +13,20 @@ This guide provides instructions to set up and manage VMs using Vagrant, specifi
 To test the setup, clone the Kubernetes certification repo which contains the Vagrantfile to deploy three VMs.
 
 ```bash
-git clone https://github.com/techiescamp/kubernetes-certification-guide.git
+git clone https://github.com/shegerbootcamp/vagrant-setup.git
 ```
 
+
+Navigate to the Ubuntu folder where the Vagrantfile is located:
+```
+cd vagrant-setup/lab-setup/mac-silicon
+```
 Navigate to the Mac Silicon folder where the Vagrantfile is located:
 
 ```bash
-cd kubernetes-certification-guide/lab-setup/mac-silicon
-```
+cd vagrant-setup/lab-setup/mac-silicon
 
+```
 The folder contains a `Vagrantfile` with the `bento/ubuntu-22.04` Vagrant box for ARM architecture, which deploys three VMs. You can modify the VM details in the `settings.yaml` file present in the folder.
 
 ## Bringing Up the VMs
