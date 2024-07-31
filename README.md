@@ -5,8 +5,8 @@ This guide provides instructions to set up and manage VMs using Vagrant, specifi
 ## Prerequisites
 
 - Ensure you have Vagrant installed. You can download it from [here](https://www.vagrantup.com/downloads).
-- Ensure you have VMware Fusion installed if you are using a Mac.
-- Ensure you have the `bento/ubuntu-22.04` Vagrant box for ARM architecture.
+- Ensure you have VMware for ubuntu installed or VMware Fusion if you are using a Mac.
+- Ensure you have the `bento/ubuntu-22.04` Vagrant box for ARM architecture if you are using a Mac.
 
 ## Cloning the Repository
 
