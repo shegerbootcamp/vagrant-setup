@@ -6,7 +6,7 @@ This guide provides instructions to set up and manage VMs using Vagrant, specifi
 
 - Ensure you have Vagrant installed. You can download it from [here](https://www.vagrantup.com/downloads).
 - Ensure you have VMware for ubuntu installed or VMware Fusion if you are using a Mac.
-- Ensure you have the `bento/ubuntu-22.04` Vagrant box for ARM architecture if you are using a Mac.
+- Ensure you have the github with gitbash terminal.
 
 ## Cloning the Repository
 
@@ -19,7 +19,7 @@ git clone https://github.com/shegerbootcamp/vagrant-setup.git
 
 Navigate to the Ubuntu folder where the Vagrantfile is located:
 ```
-cd vagrant-setup/lab-setup/mac-silicon
+cd vagrant-setup/lab-setup/ubuntu-desktop
 ```
 Navigate to the Mac Silicon folder where the Vagrantfile is located:
 
