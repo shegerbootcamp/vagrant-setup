@@ -21,8 +21,11 @@ Vagrant.configure("2") do |config|
       vm.vm.provision "shell", inline: <<-SHELL
         apt-get update -y
         echo "192.168.201.10 controlplane" >> /etc/hosts
-        echo "192.168.201.11 node01" >> /etc/hosts
-        echo "192.168.201.12 node02" >> /etc/hosts
+        echo "192.168.201.11 production" >> /etc/hosts
+        echo "192.168.201.12 QA" >> /etc/hosts
+        echo "192.168.201.13 sonar" >> /etc/hosts
+        echo "192.168.201.14 jenkins" >> /etc/hosts
+        echo "192.168.201.15 artifactory" >> /etc/hosts
       SHELL
     end
   end
