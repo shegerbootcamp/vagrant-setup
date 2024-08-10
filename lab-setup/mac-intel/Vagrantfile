@@ -23,6 +23,9 @@ Vagrant.configure("2") do |config|
         echo "192.168.201.10 controlplane" >> /etc/hosts
         echo "192.168.201.11 node01" >> /etc/hosts
         echo "192.168.201.12 node02" >> /etc/hosts
+        echo "192.168.201.12 jenkins" >> /etc/hosts
+        echo "192.168.201.12 sonar" >> /etc/hosts
+        echo "192.168.201.12 artifactory" >> /etc/hosts
       SHELL
     end
   end
