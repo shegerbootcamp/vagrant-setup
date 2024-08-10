@@ -4,7 +4,6 @@ settings = YAML.load_file(File.join(File.dirname(__FILE__), 'settings.yaml'))
 Vagrant.configure("2") do |config|
   config.vm.box = settings['box_name']
   config.vm.box_check_update = true
-  config.disksize.size = '40GB'
   # config.ssh.private_key_path = "/Users/apple/.ssh/id_rsa"
 
   settings['vm'].each do |vm_config|
